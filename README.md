@@ -6,7 +6,13 @@ Abstract：Vision-based pose measurement for non-cooperative spacecraft (NCS) is
 ## Qualitative Results
 <img width="2024" height="1988" alt="fig82" src="https://github.com/user-attachments/assets/011fc9e1-f4da-47f4-be7d-6dae631b717e" />
 
+\title{Prior-Free Vision-Based Pose Measurement for Non-Cooperative Spacecraft via Manifold-Induced Higher-Order Correspondence Modeling}
 
+\author{Chuan~Yan,
+	Hongfeng~Long,
+	Yuebo~Ma,
+	Rujin~Zhao,
+	and Zhenming~Peng}
 
 
 
