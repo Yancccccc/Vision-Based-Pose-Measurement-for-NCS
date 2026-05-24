@@ -11,8 +11,11 @@ Abstract：Vision-based pose measurement for non-cooperative spacecraft (NCS) is
 ## Motivation
 <img width="1883" height="1651" alt="fig00" src="https://github.com/user-attachments/assets/8ca1cdc5-54fe-47f7-be91-0a262eebadc7" />
 
+
+##Run the demo
+python super_colmap_rrwhm.py   --projpath DESD   --images_path rgb   --cameraModel PINHOLE   --single_camera   --matcher rrwhm_mfps   --m1 120 --m2 120   --topk 120 --kappa 15   --max_candidates 1200   --max_pairs 60000   --max_triplets 30000   --rrwhm_iter 80 --rrwhm_c 0.2 --rrwhm_beta 12   --lambda1 0.08 --lambda2 0.35 --lambda3 0.57   --prefilter --pre_top 800 --min_refine 40 --prefilter_ratio 0.95   --topM 700
+
+
+
 ## Qualitative Results
 <img width="2024" height="1988" alt="fig82" src="https://github.com/user-attachments/assets/011fc9e1-f4da-47f4-be7d-6dae631b717e" />
-
-##COM
-python super_colmap_rrwhm.py   --projpath DESD   --images_path rgb   --cameraModel PINHOLE   --single_camera   --matcher rrwhm_mfps   --m1 120 --m2 120   --topk 120 --kappa 15   --max_candidates 1200   --max_pairs 60000   --max_triplets 30000   --rrwhm_iter 80 --rrwhm_c 0.2 --rrwhm_beta 12   --lambda1 0.08 --lambda2 0.35 --lambda3 0.57   --prefilter --pre_top 800 --min_refine 40 --prefilter_ratio 0.95   --topM 700
